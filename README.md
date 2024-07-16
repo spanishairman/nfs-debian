@@ -123,7 +123,7 @@ IP-адрес клиентской машины - ***192.168.121.11/32***
 # lease-time=90
 # udp=n
 # tcp=y
-vers3=т
+vers3=n
 # vers4=y
 # vers4.0=y
 # vers4.1=y

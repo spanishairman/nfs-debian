@@ -1,0 +1,1614 @@
+Script started on 2024-07-16 12:46:24+03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="270" LINES="63"]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> vagrant up
+[0mBringing machine 'Debian12' up with 'libvirt' provider...[0m
+[0mBringing machine 'Debian12c' up with 'libvirt' provider...[0m
+[1;33m==> Debian12c: No version detected for /home/max/vagrant/images/debian12, using timestamp to watch for modifications. Consider
+==> Debian12c: generating a local metadata for the box with a version to allow better handling.
+==> Debian12c: See https://www.vagrantup.com/docs/boxes/format#box-metadata for further details.[0m
+[1;33m==> Debian12: No version detected for /home/max/vagrant/images/debian12, using timestamp to watch for modifications. Consider
+==> Debian12: generating a local metadata for the box with a version to allow better handling.
+==> Debian12: See https://www.vagrantup.com/docs/boxes/format#box-metadata for further details.[0m
+[1m==> Debian12c: Creating image (snapshot of base box volume).[0m
+[1m==> Debian12: Creating image (snapshot of base box volume).[0m
+[1m==> Debian12c: Creating domain with the following settings...[0m
+[1m==> Debian12c:  -- Name:              vg3_Debian12c[0m
+[1m==> Debian12: Creating domain with the following settings...[0m
+[1m==> Debian12:  -- Name:              vg3_Debian12[0m
+[1m==> Debian12c:  -- Title:             Debian12c[0m
+[1m==> Debian12:  -- Title:             Debian12[0m
+[1m==> Debian12:  -- Description:       Виртуальная машина на базе дистрибутива Debian Linux[0m
+[1m==> Debian12c:  -- Description:       Виртуальная машина на базе дистрибутива Debian Linux[0m
+[1m==> Debian12c:  -- Domain type:       kvm[0m
+[1m==> Debian12:  -- Domain type:       kvm[0m
+[1m==> Debian12c:  -- Cpus:              2[0m
+[1m==> Debian12:  -- Cpus:              2[0m
+[1m==> Debian12c:  -- Feature:           acpi[0m
+[1m==> Debian12:  -- Feature:           acpi[0m
+[1m==> Debian12c:  -- Feature:           apic[0m
+[1m==> Debian12:  -- Feature:           apic[0m
+[1m==> Debian12c:  -- Feature:           pae[0m
+[1m==> Debian12:  -- Feature:           pae[0m
+[1m==> Debian12c:  -- Clock offset:      utc[0m
+[1m==> Debian12:  -- Clock offset:      utc[0m
+[1m==> Debian12c:  -- Memory:            2048M[0m
+[1m==> Debian12:  -- Memory:            2048M[0m
+[1m==> Debian12c:  -- Management MAC:    52:54:00:27:28:84[0m
+[1m==> Debian12:  -- Management MAC:    52:54:00:27:28:83[0m
+[1m==> Debian12c:  -- Loader:            [0m
+[1m==> Debian12:  -- Loader:            [0m
+[1m==> Debian12c:  -- Nvram:             [0m
+[1m==> Debian12:  -- Nvram:             [0m
+[1m==> Debian12c:  -- Base box:          /home/max/vagrant/images/debian12[0m
+[1m==> Debian12:  -- Base box:          /home/max/vagrant/images/debian12[0m
+[1m==> Debian12c:  -- Storage pool:      default[0m
+[1m==> Debian12:  -- Storage pool:      default[0m
+[1m==> Debian12c:  -- Image(vda):        /home/max/libvirt/images/default/vg3_Debian12c.img, virtio, 40G[0m
+[1m==> Debian12:  -- Image(vda):        /home/max/libvirt/images/default/vg3_Debian12.img, virtio, 40G[0m
+[1m==> Debian12c:  -- Disk driver opts:  cache='default'[0m
+[1m==> Debian12:  -- Disk driver opts:  cache='default'[0m
+[1m==> Debian12c:  -- Kernel:            [0m
+[1m==> Debian12:  -- Kernel:            [0m
+[1m==> Debian12c:  -- Initrd:            [0m
+[1m==> Debian12:  -- Initrd:            [0m
+[1m==> Debian12c:  -- Graphics Type:     vnc[0m
+[1m==> Debian12:  -- Graphics Type:     vnc[0m
+[1m==> Debian12c:  -- Graphics Port:     -1[0m
+[1m==> Debian12c:  -- Graphics IP:       127.0.0.1[0m
+[1m==> Debian12:  -- Graphics Port:     -1[0m
+[1m==> Debian12c:  -- Graphics Password: Not defined[0m
+[1m==> Debian12:  -- Graphics IP:       127.0.0.1[0m
+[1m==> Debian12c:  -- Video Type:        cirrus[0m
+[1m==> Debian12:  -- Graphics Password: Not defined[0m
+[1m==> Debian12c:  -- Video VRAM:        16384[0m
+[1m==> Debian12:  -- Video Type:        cirrus[0m
+[1m==> Debian12c:  -- Video 3D accel:    false[0m
+[1m==> Debian12:  -- Video VRAM:        16384[0m
+[1m==> Debian12c:  -- Sound Type:        [0m
+[1m==> Debian12:  -- Video 3D accel:    false[0m
+[1m==> Debian12c:  -- Keymap:            en-us[0m
+[1m==> Debian12:  -- Sound Type:        [0m
+[1m==> Debian12c:  -- TPM Backend:       passthrough[0m
+[1m==> Debian12:  -- Keymap:            en-us[0m
+[1m==> Debian12:  -- TPM Backend:       passthrough[0m
+[1m==> Debian12c:  -- TPM Path:          [0m
+[1m==> Debian12c:  -- Disks:         vdb(qcow2, virtio, 1G)[0m
+[1m==> Debian12:  -- TPM Path:          [0m
+[1m==> Debian12c:  -- Disk(vdb):     /home/max/libvirt/images/default/vg3_Debian12c-vdb.qcow2[0m
+[1m==> Debian12:  -- Disks:         vdb(qcow2, virtio, 1G)[0m
+[1m==> Debian12c:  -- INPUT:             type=mouse, bus=ps2[0m
+[1m==> Debian12:  -- Disk(vdb):     /home/max/libvirt/images/default/vg3_Debian12-vdb.qcow2[0m
+[1m==> Debian12:  -- INPUT:             type=mouse, bus=ps2[0m
+[1m==> Debian12: Creating shared folders metadata...[0m
+[1m==> Debian12: Starting domain.[0m
+[1m==> Debian12c: Creating shared folders metadata...[0m
+[1m==> Debian12: Waiting for domain to get an IP address...[0m
+[1m==> Debian12c: Starting domain.[0m
+[1m==> Debian12: Waiting for machine to boot. This may take a few minutes...[0m
+[1m==> Debian12c: Waiting for domain to get an IP address...[0m
+[1m==> Debian12c: Waiting for machine to boot. This may take a few minutes...[0m
+[0m    Debian12c: SSH address: 192.168.121.11:22[0m
+[0m    Debian12: SSH address: 192.168.121.10:22[0m
+[0m    Debian12c: SSH username: vagrant[0m
+[0m    Debian12: SSH username: vagrant[0m
+[0m    Debian12c: SSH auth method: private key[0m
+[0m    Debian12: SSH auth method: private key[0m
+[0m    Debian12c: Warning: Host unreachable. Retrying...[0m
+[0m    Debian12: Warning: Host unreachable. Retrying...[0m
+[0m    Debian12c: Warning: Host unreachable. Retrying...[0m
+[0m    Debian12: Warning: Host unreachable. Retrying...[0m
+[0m    Debian12: 
+    Debian12: Vagrant insecure key detected. Vagrant will automatically replace
+    Debian12: this with a newly generated keypair for better security.[0m
+[0m    Debian12: 
+    Debian12: Inserting generated public key within guest...[0m
+[0m    Debian12: Removing insecure key from the guest if it's present...[0m
+[0m    Debian12c: 
+    Debian12c: Vagrant insecure key detected. Vagrant will automatically replace
+    Debian12c: this with a newly generated keypair for better security.[0m
+[0m    Debian12: Key inserted! Disconnecting and reconnecting using new SSH key...[0m
+[0m    Debian12c: 
+    Debian12c: Inserting generated public key within guest...[0m
+[1m==> Debian12: Machine booted and ready![0m
+[0m    Debian12c: Removing insecure key from the guest if it's present...[0m
+[1m==> Debian12: Running provisioner: shell...[0m
+[0m    Debian12c: Key inserted! Disconnecting and reconnecting using new SSH key...[0m
+[0m    Debian12: Running: inline script[0m
+[0;32m    Debian12: *************************************************************[0m
+[0;32m    Debian12: Если ранее не были установлены, то установим необходимые  пакеты[0m
+[0;32m    Debian12: *************************************************************[0m
+[0;31m    Debian12: [0m
+[0;31m    Debian12: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[0;31m    Debian12: [0m
+[0;32m    Debian12: Чтение списков пакетов…[0m
+[0;32m    Debian12: Построение дерева зависимостей…[0m
+[0;32m    Debian12: Чтение информации о состоянии…[0m
+[1m==> Debian12c: Machine booted and ready![0m
+[0;32m    Debian12: Будут установлены следующие дополнительные пакеты:[0m
+[0;32m    Debian12:   keyutils libevent-core-2.1-7 libnfsidmap1 python3-yaml rpcbind[0m
+[0;32m    Debian12: Предлагаемые пакеты:[0m
+[0;32m    Debian12:   open-iscsi watchdog[0m
+[0;32m    Debian12: Следующие НОВЫЕ пакеты будут установлены:[0m
+[0;32m    Debian12:   keyutils libevent-core-2.1-7 libnfsidmap1 nfs-common nfs-kernel-server[0m
+[0;32m    Debian12:   python3-yaml rpcbind[0m
+[1m==> Debian12c: Running provisioner: shell...[0m
+[0;32m    Debian12: Обновлено 0 пакетов, установлено 7 новых пакетов, для удаления отмечено 0 пакетов, и 0 пакетов не обновлено.[0m
+[0;32m    Debian12: Необходимо скачать 819 kB архивов.[0m
+[0;32m    Debian12: После данной операции объём занятого дискового пространства возрастёт на 3 187 kB.[0m
+[0;32m    Debian12: Пол:1 http://deb.debian.org/debian bookworm/main amd64 libevent-core-2.1-7 amd64 2.1.12-stable-8 [131 kB][0m
+[0;32m    Debian12: Пол:2 http://deb.debian.org/debian bookworm/main amd64 libnfsidmap1 amd64 1:2.6.2-4 [54,7 kB][0m
+[0;32m    Debian12: Пол:3 http://deb.debian.org/debian bookworm/main amd64 rpcbind amd64 1.2.6-6+b1 [48,3 kB][0m
+[0;32m    Debian12: Пол:4 http://deb.debian.org/debian bookworm/main amd64 keyutils amd64 1.6.3-2 [54,5 kB][0m
+[0m    Debian12c: Running: inline script[0m
+[0;32m    Debian12: Пол:5 http://deb.debian.org/debian bookworm/main amd64 nfs-common amd64 1:2.6.2-4 [260 kB][0m
+[0;32m    Debian12: Пол:6 http://deb.debian.org/debian bookworm/main amd64 nfs-kernel-server amd64 1:2.6.2-4 [151 kB][0m
+[0;32m    Debian12c: *************************************************************[0m
+[0;32m    Debian12c: Если ранее не были установлены, то установим необходимые  пакеты[0m
+[0;32m    Debian12c: *************************************************************[0m
+[0;32m    Debian12: Пол:7 http://deb.debian.org/debian bookworm/main amd64 python3-yaml amd64 6.0-3+b2 [119 kB][0m
+[0;31m    Debian12c: [0m
+[0;31m    Debian12c: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.[0m
+[0;31m    Debian12c: [0m
+[0;32m    Debian12c: Чтение списков пакетов…[0m
+[0;32m    Debian12c: Построение дерева зависимостей…[0m
+[0;32m    Debian12c: Чтение информации о состоянии…[0m
+[0;31m    Debian12: dpkg-preconfigure: не удалось заново открыть stdin: No such file or directory[0m
+[0;32m    Debian12: Получено 819 kB за 2с (454 kB/s)[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета libevent-core-2.1-7:amd64.[0m
+[0;32m    Debian12c: Будут установлены следующие дополнительные пакеты:[0m
+[0;32m    Debian12c:   keyutils libevent-core-2.1-7 libnfsidmap1 rpcbind[0m
+[0;32m    Debian12c: Предлагаемые пакеты:[0m
+[0;32m    Debian12c:   open-iscsi watchdog[0m
+[0;32m    Debian12c: Следующие НОВЫЕ пакеты будут установлены:[0m
+[0;32m    Debian12c:   keyutils libevent-core-2.1-7 libnfsidmap1 nfs-common rpcbind[0m
+[0;32m    Debian12c: Обновлено 0 пакетов, установлено 5 новых пакетов, для удаления отмечено 0 пакетов, и 0 пакетов не обновлено.[0m
+[0;32m    Debian12c: Необходимо скачать 548 kB архивов.[0m
+[0;32m    Debian12c: После данной операции объём занятого дискового пространства возрастёт на 2 056 kB.[0m
+[0;32m    Debian12c: Пол:1 http://deb.debian.org/debian bookworm/main amd64 libevent-core-2.1-7 amd64 2.1.12-stable-8 [131 kB][0m
+[0;32m    Debian12c: Пол:2 http://deb.debian.org/debian bookworm/main amd64 libnfsidmap1 amd64 1:2.6.2-4 [54,7 kB][0m
+[0;32m    Debian12c: Пол:3 http://deb.debian.org/debian bookworm/main amd64 rpcbind amd64 1.2.6-6+b1 [48,3 kB][0m
+[0;32m    Debian12c: Пол:4 http://deb.debian.org/debian bookworm/main amd64 keyutils amd64 1.6.3-2 [54,5 kB][0m
+[0;32m    Debian12c: Пол:5 http://deb.debian.org/debian bookworm/main amd64 nfs-common amd64 1:2.6.2-4 [260 kB][0m
+[0;32m    Debian12: (Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 179592 файла и каталога.)[0m
+[0;32m    Debian12: Подготовка к распаковке …/0-libevent-core-2.1-7_2.1.12-stable-8_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается libevent-core-2.1-7:amd64 (2.1.12-stable-8) …[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета libnfsidmap1:amd64.[0m
+[0;32m    Debian12: Подготовка к распаковке …/1-libnfsidmap1_1%3a2.6.2-4_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается libnfsidmap1:amd64 (1:2.6.2-4) …[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета rpcbind.[0m
+[0;32m    Debian12: Подготовка к распаковке …/2-rpcbind_1.2.6-6+b1_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается rpcbind (1.2.6-6+b1) …[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета keyutils.[0m
+[0;32m    Debian12: Подготовка к распаковке …/3-keyutils_1.6.3-2_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается keyutils (1.6.3-2) …[0m
+[0;31m    Debian12c: dpkg-preconfigure: не удалось заново открыть stdin: No such file or directory[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета nfs-common.[0m
+[0;32m    Debian12: Подготовка к распаковке …/4-nfs-common_1%3a2.6.2-4_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается nfs-common (1:2.6.2-4) …[0m
+[0;32m    Debian12c: Получено 548 kB за 2с (308 kB/s)[0m
+[0;32m    Debian12c: Выбор ранее не выбранного пакета libevent-core-2.1-7:amd64.[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета nfs-kernel-server.[0m
+[0;32m    Debian12: Подготовка к распаковке …/5-nfs-kernel-server_1%3a2.6.2-4_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается nfs-kernel-server (1:2.6.2-4) …[0m
+[0;32m    Debian12: Выбор ранее не выбранного пакета python3-yaml.[0m
+[0;32m    Debian12: Подготовка к распаковке …/6-python3-yaml_6.0-3+b2_amd64.deb …[0m
+[0;32m    Debian12: Распаковывается python3-yaml (6.0-3+b2) …[0m
+[0;32m    Debian12: Настраивается пакет libnfsidmap1:amd64 (1:2.6.2-4) …[0m
+[0;32m    Debian12: Настраивается пакет python3-yaml (6.0-3+b2) …[0m
+[0;32m    Debian12c: (Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 179592 файла и каталога.)[0m
+[0;32m    Debian12c: Подготовка к распаковке …/libevent-core-2.1-7_2.1.12-stable-8_amd64.deb …[0m
+[0;32m    Debian12c: Распаковывается libevent-core-2.1-7:amd64 (2.1.12-stable-8) …[0m
+[0;32m    Debian12c: Выбор ранее не выбранного пакета libnfsidmap1:amd64.[0m
+[0;32m    Debian12c: Подготовка к распаковке …/libnfsidmap1_1%3a2.6.2-4_amd64.deb …[0m
+[0;32m    Debian12c: Распаковывается libnfsidmap1:amd64 (1:2.6.2-4) …[0m
+[0;32m    Debian12: Настраивается пакет rpcbind (1.2.6-6+b1) …[0m
+[0;32m    Debian12c: Выбор ранее не выбранного пакета rpcbind.[0m
+[0;32m    Debian12c: Подготовка к распаковке …/rpcbind_1.2.6-6+b1_amd64.deb …[0m
+[0;32m    Debian12c: Распаковывается rpcbind (1.2.6-6+b1) …[0m
+[0;32m    Debian12c: Выбор ранее не выбранного пакета keyutils.[0m
+[0;32m    Debian12c: Подготовка к распаковке …/keyutils_1.6.3-2_amd64.deb …[0m
+[0;32m    Debian12c: Распаковывается keyutils (1.6.3-2) …[0m
+[0;32m    Debian12c: Выбор ранее не выбранного пакета nfs-common.[0m
+[0;32m    Debian12c: Подготовка к распаковке …/nfs-common_1%3a2.6.2-4_amd64.deb …[0m
+[0;32m    Debian12c: Распаковывается nfs-common (1:2.6.2-4) …[0m
+[0;32m    Debian12c: Настраивается пакет libnfsidmap1:amd64 (1:2.6.2-4) …[0m
+[0;32m    Debian12c: Настраивается пакет rpcbind (1.2.6-6+b1) …[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/multi-user.target.wants/rpcbind.service → /lib/systemd/system/rpcbind.service.[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/sockets.target.wants/rpcbind.socket → /lib/systemd/system/rpcbind.socket.[0m
+[0;32m    Debian12: Настраивается пакет libevent-core-2.1-7:amd64 (2.1.12-stable-8) …[0m
+[0;32m    Debian12: Настраивается пакет keyutils (1.6.3-2) …[0m
+[0;32m    Debian12: Настраивается пакет nfs-common (1:2.6.2-4) …[0m
+[0;32m    Debian12c: Created symlink /etc/systemd/system/multi-user.target.wants/rpcbind.service → /lib/systemd/system/rpcbind.service.[0m
+[0;32m    Debian12c: Created symlink /etc/systemd/system/sockets.target.wants/rpcbind.socket → /lib/systemd/system/rpcbind.socket.[0m
+[0;32m    Debian12: [0m
+[0;32m    Debian12: Creating config file /etc/idmapd.conf with new version[0m
+[0;32m    Debian12c: Настраивается пакет libevent-core-2.1-7:amd64 (2.1.12-stable-8) …[0m
+[0;32m    Debian12c: Настраивается пакет keyutils (1.6.3-2) …[0m
+[0;32m    Debian12c: Настраивается пакет nfs-common (1:2.6.2-4) …[0m
+[0;32m    Debian12: [0m
+[0;32m    Debian12: Creating config file /etc/nfs.conf with new version[0m
+[0;32m    Debian12: Добавляется системный пользователь «statd» (UID 115) ...[0m
+[0;32m    Debian12: Добавляется новый пользователь «statd» (UID 115) в группу «nogroup» ...[0m
+[0;32m    Debian12: Не создаётся домашний каталог «/var/lib/nfs».[0m
+[0;32m    Debian12c: [0m
+[0;32m    Debian12c: Creating config file /etc/idmapd.conf with new version[0m
+[0;32m    Debian12c: [0m
+[0;32m    Debian12c: Creating config file /etc/nfs.conf with new version[0m
+[0;32m    Debian12c: Добавляется системный пользователь «statd» (UID 115) ...[0m
+[0;32m    Debian12c: Добавляется новый пользователь «statd» (UID 115) в группу «nogroup» ...[0m
+[0;32m    Debian12c: Не создаётся домашний каталог «/var/lib/nfs».[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/multi-user.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/remote-fs.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.[0m
+[0;32m    Debian12: auth-rpcgss-module.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: nfs-idmapd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: nfs-utils.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: proc-fs-nfsd.mount is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: rpc-gssd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: rpc-statd-notify.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: rpc-statd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: rpc-svcgssd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: rpc_pipefs.target is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: var-lib-nfs-rpc_pipefs.mount is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: Настраивается пакет nfs-kernel-server (1:2.6.2-4) …[0m
+[0;32m    Debian12c: Created symlink /etc/systemd/system/multi-user.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.[0m
+[0;32m    Debian12c: Created symlink /etc/systemd/system/remote-fs.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/nfs-client.target.wants/nfs-blkmap.service → /lib/systemd/system/nfs-blkmap.service.[0m
+[0;32m    Debian12: Created symlink /etc/systemd/system/multi-user.target.wants/nfs-server.service → /lib/systemd/system/nfs-server.service.[0m
+[0;32m    Debian12c: auth-rpcgss-module.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: nfs-idmapd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: nfs-utils.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: proc-fs-nfsd.mount is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: rpc-gssd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: rpc-statd-notify.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: rpc-statd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: rpc-svcgssd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: rpc_pipefs.target is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: var-lib-nfs-rpc_pipefs.mount is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: nfs-mountd.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12: nfsdcld.service is a disabled or a static unit, not starting it.[0m
+[0;32m    Debian12c: Обрабатываются триггеры для man-db (2.11.2-2) …[0m
+[0;32m    Debian12: [0m
+[0;32m    Debian12: Creating config file /etc/exports with new version[0m
+[0;32m    Debian12: [0m
+[0;32m    Debian12: Creating config file /etc/default/nfs-kernel-server with new version[0m
+[0;32m    Debian12c: Обрабатываются триггеры для libc-bin (2.36-9+deb12u7) …[0m
+[0;32m    Debian12: Обрабатываются триггеры для man-db (2.11.2-2) …[0m
+[0;32m    Debian12: Обрабатываются триггеры для libc-bin (2.36-9+deb12u7) …[0m
+[0;32m    Debian12: Создадим директорию для экспорта и зададим права[0m
+[0;31m    Debian12: exportfs: /etc/exports [1]: Neither 'subtree_check' or 'no_subtree_check' specified for export "192.168.121.11/32:/srv/share".[0m
+[0;31m    Debian12:   Assuming default behaviour ('no_subtree_check').[0m
+[0;31m    Debian12:   NOTE: this default has changed since nfs-utils version 1.0.x[0m
+[0;31m    Debian12: [0m
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -S serc[Kver vagrant ssh Debian12
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -S server vagrant ssh Debian12c[1P[1P[1P[1P[1P[1P[1@c[1@l[1@i[1@e[1@n[1@t
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# [30Pls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# touch /mnt/nfs/upload/client_fileroot@debian12:~# [11Pls -l /mnt/nfs/upload/root@debian12:~# touch /mnt/nfs/upload/client_fileroot@debian12:~# [11Pls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root    0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# [?1l>[63;1H
+[detached from 22764.client]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -S client vagrant ssh Debian12c[1Pserver vagrant ssh Debian12
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jul 16 12:47:52 2024 from 192.168.121.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ 
+выход
+Connection to 192.168.121.10 closed.
+[?1l>[63;1H
+[screen is terminating]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -S server vagrant ssh Debian12[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscreen -S server vagrant ssh Debian12[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscreen -r server 
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# exportfs -sshutdown -P nowls -l /home/vagrant/root@debian12:~# [5Pshutdown -P now[4Pexportfs -s[Kls -l /srv/share/upload/
+итого 0
+-rw-r--r-- 1 root   root    0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client 
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs /[K
+root@debian12:~# [?1l>[63;1H
+[detached from 22764.client]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client server[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# ls -l /srv/share/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# echo "Конфигурирование сервера NFS"
+Конфигурирование сервера NFS
+root@debian12:~# echo "Отключаем NFSv3"
+Отключаем NFSv3
+root@debian12:~# nano /etc/nfs.conf
+[H[?25l[H[2J[61;130H[7m[ Чтение… ][0m[17D[7m[ Прочитана 101 строка ][0m[H[7m  GNU nano 7.2                                                                                                                     /etc/nfs.conf                                                                                                                              [1;269H[0m[61B[7m^G[0m Справка[8C[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать[7C[7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово[6C[7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх
+[7m^X[0m Выход[10C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить[7C[7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[61A[36m#
+# This is a general configuration for the
+# NFS daemons and tools
+#
+[1m[39m[32m[general]
+[39m[0mpipefs-directory=/run/rpc_pipefs
+[36m#
+[1m[39m[32m[nfsrahead]
+[0m[36m# nfs=15000
+# nfs4=16000
+#
+[1m[39m[32m[exports]
+[0m[36m# rootdir=/export
+#
+[1m[39m[32m[exportfs]
+[0m[36m# debug=0
+#
+[1m[39m[32m[gssd]
+[0m[36m# verbosity=0
+# rpc-verbosity=0
+# use-memcache=0
+# use-machine-creds=1
+# use-gss-proxy=0
+# avoid-dns=1
+# limit-to-legacy-enctypes=0
+# context-timeout=0
+# rpc-timeout=5
+# keytab-file=/etc/krb5.keytab
+# cred-cache-directory=
+# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[39m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[39m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[39m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[39m[32m[nfsdcld]
+[0m[36m# debug=0[58A[39m[?12l[?25h[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[40B[K[?12l[?25h[39A[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h[H[59B
+[2;61r[61;1H
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcld[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsdcltrack][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcltrack[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# threads=8[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# host=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# grace-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# lease-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# udp=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# tcp=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers3=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.0=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.1=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.2=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma-port=20049[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[statd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# name=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# state-directory-path=/var/lib/nfs/statd[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# ha-callout=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# no-notify=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[sm-notify][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# force=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# retry-time=900[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-port=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-addr=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# lift-grace=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[svcgssd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# principal=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;146H[7m*[122C[0m[?12l[?25h[33;2H[P[?25l[?12l[?25hvers3=y [?25l[?12l[?25h
+[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[P[?25l[?12l[?25hvers4=y [?25l[?12l[?25h
+[?25l[?12l[?25h[A[?25l[?12l[?25h[33;8H[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[62;19H           [7C        [10C             [7mM-D[0m Формат DOS   [6C          [8C          [8C        [7mM-A[0m Доп. в начало      [5C              [4C        [37D[47C   [7mM-B[0m Резерв. копия[K[63;2H[7mC[0m Отмена[9C          [8C         [9C             [7mM-M[0m Формат Mac   [6C           [7C          [8C        [7mM-P[0m Доп. в конец       [5C             [5C         [39D[48C   [7m^T[0m Обзор[K[2A[7mИмя файла для записи: /etc/nfs.conf                                                                                                                                                                                                                                           [61;36H[0m[?12l[?25h[?25l[93C[1K [7m[ Запись… ][0m[K[1;146H[7m [122C[0m[61;124H[7m[ Записана 101 строка ][0m[62;19H[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать       [7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово      [7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх[63;2H[7mX[0m Выход [9C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить       [7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[?12l[?25h[33;8H[?25l[28B[J[63;1H[?12l[?25hroot@debian12:~# systemctl restart nfs-server.service [1;63r[63;1H
+root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.confecho "Отключаем NFSv3"Конфигурирование сервера NFS"root@debian12:~# [11Pls -l /srv/share/upload/root@debian12:~# [13Pexportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r server client[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# umount /mnt/nfs ls -l /mnt/nfs/upload/root@debian12:~# touch /mnt/nfs/upload/client_fileroot@debian12:~# [11Pls -l /mnt/nfs/upload/[Kmount.nfs 192.168.121.10:/srv/share/ /mnt/nfss[1@3[P [1@ [1@-[1@o [1@ [1@v[1@e[1@r[1@s[1@=[1@3
+Created symlink /run/systemd/system/remote-fs.target.wants/rpc-statd.service → /lib/systemd/system/rpc-statd.service.
+mount.nfs: requested NFS version or transport protocol is not supported
+root@debian12:~# [?1l>[63;1H
+[detached from 22764.client]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client server[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2J[1m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[32m[nfsdcld]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcld
+#
+[1m[32m[nfsdcltrack]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcltrack
+#
+[1m[32m[nfsd]
+[0m[36m# debug=0
+# threads=8
+# host=
+# port=0
+# grace-time=90
+# lease-time=90
+# udp=n
+# tcp=y
+[39mvers3=n
+vers4=y
+[36m# vers4.0=y
+# vers4.1=y
+# vers4.2=y
+# rdma=n
+# rdma-port=20049
+
+[1m[32m[statd]
+[0m[36m# debug=0
+# port=0
+# outgoing-port=0
+# name=
+# state-directory-path=/var/lib/nfs/statd
+# ha-callout=
+# no-notify=0
+#
+[1m[32m[sm-notify]
+[0m[36m# debug=0
+# force=0
+# retry-time=900
+# outgoing-port=
+# outgoing-addr=
+# lift-grace=y
+#
+[1m[32m[svcgssd]
+[0m[36m# principal=[4B[39mroot@debian12:~# systemctl restart nfs-server.service
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# exportfs -ssystemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.conf
+[H[?25l[H[2J[61;130H[7m[ Чтение… ][0m[17D[7m[ Прочитана 101 строка ][0m[H[7m  GNU nano 7.2                                                                                                                     /etc/nfs.conf                                                                                                                              [1;269H[0m[61B[7m^G[0m Справка[8C[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать[7C[7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово[6C[7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх
+[7m^X[0m Выход[10C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить[7C[7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[61A[36m#
+# This is a general configuration for the
+# NFS daemons and tools
+#
+[1m[39m[32m[general]
+[39m[0mpipefs-directory=/run/rpc_pipefs
+[36m#
+[1m[39m[32m[nfsrahead]
+[0m[36m# nfs=15000
+# nfs4=16000
+#
+[1m[39m[32m[exports]
+[0m[36m# rootdir=/export
+#
+[1m[39m[32m[exportfs]
+[0m[36m# debug=0
+#
+[1m[39m[32m[gssd]
+[0m[36m# verbosity=0
+# rpc-verbosity=0
+# use-memcache=0
+# use-machine-creds=1
+# use-gss-proxy=0
+# avoid-dns=1
+# limit-to-legacy-enctypes=0
+# context-timeout=0
+# rpc-timeout=5
+# keytab-file=/etc/krb5.keytab
+# cred-cache-directory=
+# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[39m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[39m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[39m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[39m[32m[nfsdcld]
+[0m[36m# debug=0[58A[39m[?12l[?25h[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[40B[K[?12l[?25h[39A[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h[H[59B
+[2;61r[61;1H
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcld[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsdcltrack][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcltrack[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# threads=8[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# host=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# grace-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# lease-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# udp=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# tcp=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59Bvers3=n[?25l[?12l[?25h[H[59B
+
+[H[59Bvers4=y[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.0=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.1=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.2=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma-port=20049[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[statd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# name=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# state-directory-path=/var/lib/nfs/statd[39m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[47;8H[?25l[1;146H[7m*[122C[0m[?12l[?25h[47;7H [?25l[?12l[?25hy[?25l[62;19H           [7C        [10C             [7mM-D[0m Формат DOS   [6C          [8C          [8C        [7mM-A[0m Доп. в начало      [5C              [4C        [37D[47C   [7mM-B[0m Резерв. копия[K[63;2H[7mC[0m Отмена[9C          [8C         [9C             [7mM-M[0m Формат Mac   [6C           [7C          [8C        [7mM-P[0m Доп. в конец       [5C             [5C         [39D[48C   [7m^T[0m Обзор[K[2A[7mИмя файла для записи: /etc/nfs.conf                                                                                                                                                                                                                                           [61;36H[0m[?12l[?25h[?25l[93C[1K [7m[ Запись… ][0m[K[1;146H[7m [122C[0m[61;124H[7m[ Записана 101 строка ][0m[62;19H[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать       [7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово      [7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх[63;2H[7mX[0m Выход [9C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить       [7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[?12l[?25h[47;8H[?25l[14B[J[63;1H[?12l[?25hroot@debian12:~# nano /etc/nfs.conf[7Pexportfs -ssystemctl restart nfs-server.service [1;63r[63;1H
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r server client[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+Created symlink /run/systemd/system/remote-fs.target.wants/rpc-statd.service → /lib/systemd/system/rpc-statd.service.
+mount.nfs: requested NFS version or transport protocol is not supported
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# umount /mnt/nfs 
+root@debian12:~# umount /mnt/nfs mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs[P[1@4
+root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kmount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root    0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# ls -l /mnt/nfs/upload/root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kmount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [K
+root@debian12:~# [?1l>[63;1H
+[detached from 22764.client]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client server[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2J[36m# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[32m[nfsdcld]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcld
+#
+[1m[32m[nfsdcltrack]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcltrack
+#
+[1m[32m[nfsd]
+[0m[36m# debug=0
+# threads=8
+# host=
+# port=0
+# grace-time=90
+# lease-time=90
+# udp=n
+# tcp=y
+[39mvers3=y
+vers4=y
+[36m# vers4.0=y
+# vers4.1=y
+# vers4.2=y
+# rdma=n
+# rdma-port=20049
+
+[1m[32m[statd]
+[0m[36m# debug=0
+# port=0
+# outgoing-port=0
+# name=
+# state-directory-path=/var/lib/nfs/statd
+
+
+[39mroot@debian12:~# systemctl restart nfs-server.service
+root@debian12:~# echo "Отключаем NFSv4"
+Отключаем NFSv4
+root@debian12:~# echo "Отключаем NFSv4"root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.conf
+[H[?25l[H[2J[61;130H[7m[ Чтение… ][0m[17D[7m[ Прочитана 101 строка ][0m[H[7m  GNU nano 7.2                                                                                                                     /etc/nfs.conf                                                                                                                              [1;269H[0m[61B[7m^G[0m Справка[8C[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать[7C[7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово[6C[7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх
+[7m^X[0m Выход[10C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить[7C[7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[61A[36m#
+# This is a general configuration for the
+# NFS daemons and tools
+#
+[1m[39m[32m[general]
+[39m[0mpipefs-directory=/run/rpc_pipefs
+[36m#
+[1m[39m[32m[nfsrahead]
+[0m[36m# nfs=15000
+# nfs4=16000
+#
+[1m[39m[32m[exports]
+[0m[36m# rootdir=/export
+#
+[1m[39m[32m[exportfs]
+[0m[36m# debug=0
+#
+[1m[39m[32m[gssd]
+[0m[36m# verbosity=0
+# rpc-verbosity=0
+# use-memcache=0
+# use-machine-creds=1
+# use-gss-proxy=0
+# avoid-dns=1
+# limit-to-legacy-enctypes=0
+# context-timeout=0
+# rpc-timeout=5
+# keytab-file=/etc/krb5.keytab
+# cred-cache-directory=
+# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[39m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[39m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[39m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[39m[32m[nfsdcld]
+[0m[36m# debug=0[58A[39m[?12l[?25h[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[40B[K[?12l[?25h[39A[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h[H[59B
+[2;61r[61;1H
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcld[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsdcltrack][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcltrack[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# threads=8[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# host=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# grace-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# lease-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# udp=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# tcp=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59Bvers3=y[?25l[?12l[?25h[H[59B
+
+[H[59Bvers4=y[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.0=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.1=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.2=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma-port=20049[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[statd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# name=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# state-directory-path=/var/lib/nfs/statd[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# ha-callout=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# no-notify=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[44;8H[?25l[?12l[?25h
+[?25l[1;146H[7m*[122C[0m[?12l[?25h[45;7H [?25l[?12l[?25hn[?25l[62;19H           [7C        [10C             [7mM-D[0m Формат DOS   [6C          [8C          [8C        [7mM-A[0m Доп. в начало      [5C              [4C        [37D[47C   [7mM-B[0m Резерв. копия[K[63;2H[7mC[0m Отмена[9C          [8C         [9C             [7mM-M[0m Формат Mac   [6C           [7C          [8C        [7mM-P[0m Доп. в конец       [5C             [5C         [39D[48C   [7m^T[0m Обзор[K[2A[7mИмя файла для записи: /etc/nfs.conf                                                                                                                                                                                                                                           [61;36H[0m[?12l[?25h[?25l[93C[1K [7m[ Запись… ][0m[K[1;146H[7m [122C[0m[61;124H[7m[ Записана 101 строка ][0m[62;19H[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать       [7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово      [7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх[63;2H[7mX[0m Выход [9C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить       [7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[?12l[?25h[45;8H[?25l[16B[J[63;1H[?12l[?25hroot@debian12:~# nano /etc/nfs.confecho "Отключаем NFSv4"root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.confsystemctl restart nfs-server.service [1;63r[63;1H
+root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.confecho "Отключаем NFSv4"root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.conf[7Pexportfs -ssystemctl restart nfs-server.service root@debian12:~# exportfs -s[K
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r server client[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+Created symlink /run/systemd/system/remote-fs.target.wants/rpc-statd.service → /lib/systemd/system/rpc-statd.service.
+mount.nfs: requested NFS version or transport protocol is not supported
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# umount /mnt/nfs ls -l /mnt/nfs/upload/root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kmount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kmount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfs
+mount.nfs: Protocol not supported
+root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kls -l /mnt/nfs/upload/root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kmount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root    0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# ls -l /mnt/nfs/upload/root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfsroot@debian12:~# umount /mnt/nfs [Kls -l /mnt/nfs/upload/root@debian12:~# [6Pumount /mnt/nfs 
+root@debian12:~# [?1l>[63;1H
+[detached from 22764.client]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client server[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2J[1m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[32m[nfsdcld]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcld
+#
+[1m[32m[nfsdcltrack]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcltrack
+#
+[1m[32m[nfsd]
+[0m[36m# debug=0
+# threads=8
+# host=
+# port=0
+# grace-time=90
+# lease-time=90
+# udp=n
+# tcp=y
+[39mvers3=y
+vers4=n
+[36m# vers4.0=y
+# vers4.1=y
+# vers4.2=y
+# rdma=n
+# rdma-port=20049
+
+[1m[32m[statd]
+[0m[36m# debug=0
+# port=0
+# outgoing-port=0
+# name=
+# state-directory-path=/var/lib/nfs/statd
+# ha-callout=
+# no-notify=0
+#
+
+
+[39mroot@debian12:~# systemctl restart nfs-server.service
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# exportfs -ssystemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.conf
+[H[?25l[H[2J[61;130H[7m[ Чтение… ][0m[17D[7m[ Прочитана 101 строка ][0m[H[7m  GNU nano 7.2                                                                                                                     /etc/nfs.conf                                                                                                                              [1;269H[0m[61B[7m^G[0m Справка[8C[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать[7C[7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово[6C[7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх
+[7m^X[0m Выход[10C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить[7C[7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[61A[36m#
+# This is a general configuration for the
+# NFS daemons and tools
+#
+[1m[39m[32m[general]
+[39m[0mpipefs-directory=/run/rpc_pipefs
+[36m#
+[1m[39m[32m[nfsrahead]
+[0m[36m# nfs=15000
+# nfs4=16000
+#
+[1m[39m[32m[exports]
+[0m[36m# rootdir=/export
+#
+[1m[39m[32m[exportfs]
+[0m[36m# debug=0
+#
+[1m[39m[32m[gssd]
+[0m[36m# verbosity=0
+# rpc-verbosity=0
+# use-memcache=0
+# use-machine-creds=1
+# use-gss-proxy=0
+# avoid-dns=1
+# limit-to-legacy-enctypes=0
+# context-timeout=0
+# rpc-timeout=5
+# keytab-file=/etc/krb5.keytab
+# cred-cache-directory=
+# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[39m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[39m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[39m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[39m[32m[nfsdcld]
+[0m[36m# debug=0[58A[39m[?12l[?25h[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[40B[K[?12l[?25h[39A[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h
+[?25l[?12l[?25h[H[59B
+[2;61r[61;1H
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcld[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsdcltrack][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# storagedir=/var/lib/nfs/nfsdcltrack[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m#[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[nfsd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# threads=8[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# host=[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# grace-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# lease-time=90[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# udp=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# tcp=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59Bvers3=y[?25l[?12l[?25h[H[59B
+
+[H[59Bvers4=n[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.0=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.1=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# vers4.2=y[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma=n[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# rdma-port=20049[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[?25l[?12l[?25h[H[59B
+
+[H[59B[1m[32m[statd][39m[0m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# debug=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# port=0[39m[?25l[?12l[?25h[H[59B
+
+[H[59B[36m# outgoing-port=0[39m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[50;8H[?25l[1;146H[7m*[122C[0m[?12l[?25h[50;7H [?25l[?12l[?25hy[?25l[62;19H           [7C        [10C             [7mM-D[0m Формат DOS   [6C          [8C          [8C        [7mM-A[0m Доп. в начало      [5C              [4C        [37D[47C   [7mM-B[0m Резерв. копия[K[63;2H[7mC[0m Отмена[9C          [8C         [9C             [7mM-M[0m Формат Mac   [6C           [7C          [8C        [7mM-P[0m Доп. в конец       [5C             [5C         [39D[48C   [7m^T[0m Обзор[K[2A[7mИмя файла для записи: /etc/nfs.conf                                                                                                                                                                                                                                           [61;36H[0m[?12l[?25h[?25l[93C[1K [7m[ Запись… ][0m[K[1;146H[7m [122C[0m[61;124H[7m[ Записана 101 строка ][0m[62;19H[7m^O[0m Записать[7C[7m^W[0m Поиск[10C[7m^K[0m Вырезать       [7m^T[0m Выполнить[6C[7m^C[0m Позиция[8C[7mM-U[0m Отмена[8C[7mM-A[0m Установить мет[7mM-][0m На скобку     [7mM-Q[0m Предыдущий    [7m^B[0m Назад[10C[7m^◂[0m ПредСлово      [7m^A[0m Начало[9C[7m^P[0m ПредСтрока     [7mM-▴[0m ПрокрутВверх[63;2H[7mX[0m Выход [9C[7m^R[0m ЧитФайл[8C[7m^\[0m Замена[9C[7m^U[0m Вставить       [7m^J[0m Выровнять[6C[7m^/[0m К строке[7C[7mM-E[0m Повтор[8C[7mM-6[0m Копировать    [7m^Q[0m Обр. поиск     [7mM-W[0m Следующий     [7m^F[0m Вперёд[9C[7m^▸[0m СледСлово[6C[7m^E[0m Конец[10C[7m^N[0m СледСтрока     [7mM-▾[0m ПрокрутВниз[?12l[?25h[50;8H[?25l[11B[J[63;1H[?12l[?25hroot@debian12:~# nano /etc/nfs.conf[7Pexportfs -ssystemctl restart nfs-server.service [1;63r[63;1H
+root@debian12:~# systemctl restart nfs-server.service root@debian12:~# [19Pnano /etc/nfs.conf[7Pexportfs -ssystemctl restart nfs-server.service root@debian12:~# exportfs -s[K
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# [?1l>[63;1H
+[detached from 22742.server]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r server client[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2JLinux debian12 6.1.0-22-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jul 11 09:21:01 2024 from 192.168.122.1
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ sudo -i
+root@debian12:~# ls -l /mnt/
+итого 4
+drwxr-xr-x 2 root root 4096 июл 16 12:47 nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 0
+root@debian12:~# mount.nfs 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/
+итого 4
+drwxrwxrwx 2 nobody nogroup 4096 июл 16 12:47 upload
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root root 0 июл 16 12:47 check_file
+root@debian12:~# touch /mnt/nfs/upload/client_file
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+Created symlink /run/systemd/system/remote-fs.target.wants/rpc-statd.service → /lib/systemd/system/rpc-statd.service.
+mount.nfs: requested NFS version or transport protocol is not supported
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# mount.nfs -o vers=4 192.168.121.10:/srv/share/ /mnt/nfs
+mount.nfs: Protocol not supported
+root@debian12:~# mount.nfs -o vers=3 192.168.121.10:/srv/share/ /mnt/nfs
+root@debian12:~# ls -l /mnt/nfs/upload/
+итого 0
+-rw-r--r-- 1 root   root[4C0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:~# umount /mnt/nfs
+root@debian12:~# echo "Автомонтирование"
+Автомонтирование
+root@debian12:~# echo "192.168.121.10:/srv/share/ /mnt/nfs nfs vers=3,noauto,x-systemd.automount 0 0" >> /etc/fstab
+root@debian12:~# systemctl daemon-reload
+root@debian12:~# systemctl restart remote-fs.target
+root@debian12:~# cd /mnt/nfs/
+root@debian12:/mnt/nfs# ls -l /[Kupload/
+итого 0
+-rw-r--r-- 1 root   root    0 июл 16 12:47 check_file
+-rw-r--r-- 1 nobody nogroup 0 июл 16 12:49 client_file
+root@debian12:/mnt/nfs# exit[K[K[K[K
+выход
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ 
+выход
+Connection to 192.168.121.11 closed.
+[?1l>[63;1H
+[screen is terminating]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> screen -r client server[C
+[?4l>[4l[?1h=[0m(B[1;63r[H[2J[H[2J[36m# preferred-realm=
+# set-home=1
+# upcall-timeout=30
+# cancel-timed-out-upcalls=0
+#
+[1m[32m[lockd]
+[0m[36m# port=0
+# udp-port=0
+#
+[1m[32m[exportd]
+[0m[36m# debug="all|auth|call|general|parse"
+# manage-gids=n
+# state-directory-path=/var/lib/nfs
+# threads=1
+# cache-use-ipaddr=n
+# ttl=1800
+[1m[32m[mountd]
+[0m[36m# debug="all|auth|call|general|parse"
+[39mmanage-gids=y
+[36m# descriptors=0
+# port=0
+# threads=1
+# reverse-lookup=n
+# state-directory-path=/var/lib/nfs
+# ha-callout=
+# cache-use-ipaddr=n
+# ttl=1800
+#
+[1m[32m[nfsdcld]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcld
+#
+[1m[32m[nfsdcltrack]
+[0m[36m# debug=0
+# storagedir=/var/lib/nfs/nfsdcltrack
+#
+[1m[32m[nfsd]
+[0m[36m# debug=0
+# threads=8
+# host=
+# port=0
+# grace-time=90
+# lease-time=90
+# udp=n
+# tcp=y
+[39mvers3=y
+vers4=y
+[36m# vers4.0=y
+# vers4.1=y
+# vers4.2=y
+# rdma=n
+# rdma-port=20049
+
+[1m[32m[statd]
+[0m[36m# debug=0
+# port=0
+# outgoing-port=0
+
+
+[39mroot@debian12:~# systemctl restart nfs-server.service
+root@debian12:~# exportfs -s
+/srv/share  192.168.121.11/32(sync,wdelay,hide,no_subtree_check,sec=sys,rw,secure,root_squash,no_all_squash)
+root@debian12:~# 
+выход
+[1m[32mvagrant@debian12[0m:[1m[34m~[0m$ 
+выход
+Connection to 192.168.121.10 closed.
+[?1l>[63;1H
+[screen is terminating]
+7]2;max@localhost.localdomain:~/vagrant/vg3]1;localhost.localdomain8max@localhost:~/vagrant/vg3> Готоа[Kво![K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2024-07-16 12:55:49+03:00 [COMMAND_EXIT_CODE="0"]
